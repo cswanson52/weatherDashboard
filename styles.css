@@ -1,3 +1,13 @@
+/* -Fonts-
+Headings: font-family: 'Oswald', sans-serif;
+Non Heading: font-family: 'Lora', serif; */
+
+/* Color Palette:
+Eggplant: #625261
+Platinum: #E8E8E8
+Dark Jungle Green (text): #001514
+Green Sheen: #89BEB3 */
+
 body {
     background-color: #E8E8E8;
 }
@@ -10,6 +20,30 @@ h1 {
     text-align: center;
 }
 
+h3 {
+    color: #001514;
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    color: #001514;
+    font-family: 'Lora', serif;
+    font-size: 1.125rem;
+}
+
 .jumbotron {
     background-color: #625261;
+    margin-bottom: 30px;
+}
+
+.city-search {
+    border: .5px;
+    border-color: black;
+    border-style: solid;
+    padding: 8px;
+    text-align: center;
+}
+
+.weather-results {
+    text-align: center;
 }
